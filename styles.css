@@ -1,6 +1,53 @@
-h1 {
-    color: red;
-}
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
 body{
-    color: green;
+    background: url(img/group.jpg) no-repeat;
+    background-size: cover; 
+    position: relative;   
+}
+
+.login-form{
+    
+    text-align: right;
+    padding:10px;
+    margin: auto;
+    width: 100%;
+    
+}
+
+input[type=text]{
+    padding: 10px;
+    margin: 10px 150px 20px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+input[type=email]{
+    padding: 10px;
+    margin: 10px 150px 20px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+input[type=button]{
+    margin: 10px 150px 0px 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+
+h1{
+    
+    text-align: left;
+    color: gray; 
+    font-size: 35px;
+    margin: 10px 25px 0;
+   /* border-bottom: 10px solid rgb(0, 179, 250);*/
+}
+
+i{
+    width: 26px;
+    float: left;
 }
